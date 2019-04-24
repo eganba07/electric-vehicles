@@ -1,4 +1,4 @@
-#Does Socioeconomic Status Effect Electric Vehile Forecasting? A New York State Case Study
+# Does Socioeconomic Status Effect Electric Vehile Forecasting? A New York State Case Study
 ### Table of contents
 
 - [Introduction](#introduction)
