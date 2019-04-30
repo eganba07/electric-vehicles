@@ -1,4 +1,4 @@
-# Does Socioeconomic Status Effect Electric Vehicle Forecasting? A New York State Case Study
+# Forecasting Electric Vehicle Demand: A New York State Case Study
 ### Table of contents
 
 - [Introduction](#introduction)
@@ -9,6 +9,13 @@
 
 ## Introduction
 
+Using data we compiled from New York State ]click here to access the NYSERDA page](https://www.nyserda.ny.gov/) as well as data from the Census Bureau [located here](https://census.gov/), we created a forecast of electric vehicle demand at a yearly level. Given more time and more information, it will be possible to update the forecast to run at a monthly leel. 
+
+We used a three-layer approach to create the model. The first layer was a decision tree to create a hierarchical ranking of the variables. Once we have found out which variables were deemed essential, we ran a linear regression to find out each of the independent variables coeefficients with respect to overall electric vehicle registrations. 
+
+The second part was to forecast out using the Holt method our respective independent variables so we could test our model. Once we forecasted out each respective variable, we then multiplied the values by their coefficients from the linear model to create a forecasted value for electric vehicles. 
+
+Since we have the actual numbers for 2018 from New York, we tested out the model on 2018 to compare our numbers to the actual numbers and then also forecasted out 2019 as well.
 - You need to have a GitHub account. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. This is where your website will live - if you sign up with username `johnsmith` then your website will be `https://johnsmith.github.io`.
 - It would be helpful to understand what Markdown is and how to write it. Markdown is just a way to take a piece of text and format it to look a little nicer.  For example, this whole instruction set that you're reading is written in markdown - it's just text with some words being bold/larger/italicized/etc. I recommend taking 5 minutes to learn markdown [with this amazingly easy yet useful tutorial](https://markdowntutorial.com/).
 
